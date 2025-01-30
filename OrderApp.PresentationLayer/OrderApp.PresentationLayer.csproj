@@ -87,6 +87,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OrderApp.BusinessLayer\OrderApp.BusinessLayer.csproj">
+      <Project>{e8b2739e-8bbd-4712-8574-e64a4bc87b27}</Project>
+      <Name>OrderApp.BusinessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
