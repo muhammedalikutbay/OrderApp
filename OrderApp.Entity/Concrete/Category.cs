@@ -1,7 +1,6 @@
-﻿
-namespace OrderApp.Entity.Concrete
+﻿namespace OrderApp.Entity.Concrete
 {
-    internal class Category:BaseModel
+    internal class Category : BaseModel
     {
         public string Name { get; set; }
     }

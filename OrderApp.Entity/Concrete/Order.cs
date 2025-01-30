@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace OrderApp.Entity.Concrete
+﻿namespace OrderApp.Entity.Concrete
 {
-    internal class Order
+    internal class Order : BaseModel
     {
+        public int MenuId { get; set; }
+        public int Quantity { get; set; }
+        public decimal TotalPrice { get; set; }
     }
 }

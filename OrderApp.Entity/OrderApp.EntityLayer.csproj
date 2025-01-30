@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="Concrete\BaseModel.cs" />
     <Compile Include="Concrete\Category.cs" />
+    <Compile Include="Concrete\Menu.cs" />
+    <Compile Include="Concrete\Order.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
