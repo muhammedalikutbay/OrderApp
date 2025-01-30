@@ -1,6 +1,6 @@
 ﻿namespace OrderApp.Entity.Concrete
 {
-    internal class Order : BaseModel
+    public class Order : BaseModel
     {
         public int MenuId { get; set; }
         public Menu Menu { get; set; }

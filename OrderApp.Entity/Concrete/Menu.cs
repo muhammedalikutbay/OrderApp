@@ -2,7 +2,7 @@
 
 namespace OrderApp.Entity.Concrete
 {
-    internal class Menu : BaseModel
+    public class Menu : BaseModel
     {
         public int CategoryId { get; set; }
         public Category Category { get; set; }
